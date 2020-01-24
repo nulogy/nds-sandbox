@@ -15,7 +15,7 @@ module.exports = function(plop) {
         templateFile: "src/generator-templates/component.hbs"
       },
       function(data) {
-        return "Your component was created! 😊";
+        return "Your component was created! 🚀";
       }
     ]
   });
