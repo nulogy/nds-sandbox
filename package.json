@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "generate:component": "plop"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +29,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "plop": "^2.5.3"
   }
 }
