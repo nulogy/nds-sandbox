@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {NDSProvider, NavBar, theme} from "@nulogy/components";
+import {Box, NDSProvider, NavBar, theme} from "@nulogy/components";
 import { Home } from "./pages/Home";
 import { Details } from "./pages/Details";
 import { Custom } from "./pages/Custom";
@@ -33,23 +33,22 @@ const App = () => {
   
   return (
     <Router>
-        <NDSProvider theme={theme}>
+      <NDSProvider theme={theme}>
         <NavBar menuData={ { primaryMenu, secondaryMenu, search } } />
-        <hr />
-        <Switch>
-          <Route exact path="/">
-            <Home/>
-          </Route>
-          <Route path="/details">
-            <Details/>
-          </Route>
-          <Route path="/custom">
-            <Custom/>
-          </Route>
-        </Switch>
-
+        <Box p="x6">
+          <Switch>
+            <Route exact path="/">
+              <Home/>
+            </Route>
+            <Route path="/details">
+              <Details/>
+            </Route>
+            <Route path="/custom">
+              <Custom/>
+            </Route>
+          </Switch>
+        </Box>
       </NDSProvider>
-
     </Router>
   );
 }
