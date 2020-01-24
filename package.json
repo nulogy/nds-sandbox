@@ -5,12 +5,12 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "generate:component": "plop"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,5 +26,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "plop": "^2.5.3"
   }
 }
