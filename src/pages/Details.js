@@ -127,31 +127,31 @@ export const Details = () => {
                       <Text mb="x1" fontSize="small" fontWeight="bold" lineHeight="smallTextBase">
                         Purchase Order Number
                       </Text>
-                      <Text>7050007201911</Text>
+                      <Text>7050007201912</Text>
                     </Box>
                     <Box width={1 / 3} pl="x1" mb="x3">
                       <Text mb="x1" fontSize="small" fontWeight="bold" lineHeight="smallTextBase">
                         Purchase Order Number
                       </Text>
-                      <Text>7050007201911</Text>
+                      <Text>7050007201913</Text>
                     </Box>
                     <Box width={1 / 3} pr="x1" mb="x3">
                       <Text mb="x1" fontSize="small" fontWeight="bold" lineHeight="smallTextBase">
                         Purchase Order Number
                       </Text>
-                      <Text>7050007201911</Text>
+                      <Text>7050007201914</Text>
                     </Box>
                     <Box width={1 / 3} px="x1" mb="x3">
                       <Text mb="x1" fontSize="small" fontWeight="bold" lineHeight="smallTextBase">
                         Purchase Order Number
                       </Text>
-                      <Text>7050007201911</Text>
+                      <Text>7050007201915</Text>
                     </Box>
                     <Box width={1 / 3} pl="x1" mb="x3">
                       <Text mb="x1" fontSize="small" fontWeight="bold" lineHeight="smallTextBase">
                         Purchase Order Number
                       </Text>
-                      <Text>7050007201911</Text>
+                      <Text>7050007201916</Text>
                     </Box>
                   </Flex>
                 </Box>
@@ -160,13 +160,13 @@ export const Details = () => {
               <Tab label="Milestones">
                 <Box py="x2">
                   <SectionTitle mb="x2">Milestone Performance</SectionTitle>
-                  <Table columns={milestoneColumns} rows={milestoneRows} keyField="date" />
+                  <Table columns={milestoneColumns} rows={milestoneRows} />
                 </Box>
               </Tab>
               <Tab label="Production Records">
                 <Box pt="x2" mb="x3">
                   <SectionTitle mb="x2">Production Records</SectionTitle>
-                  <Table columns={productionColumns} rows={productionRows} keyField="date" />
+                  <Table columns={productionColumns} rows={productionRows} />
                 </Box>
                 <Box pt="x1">
                   <SubsectionTitle mb="x3">Comments</SubsectionTitle>
