@@ -5,12 +5,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import {NDSProvider, theme} from "@nulogy/components";
 import { Home } from "./pages/Home";
 import { Details } from "./pages/Details";
 import { Custom } from "./pages/Custom";
 
 const App = () => {
   return (
+    <NDSProvider theme={theme}>
     <Router>
       <div>
         <ul>
@@ -39,6 +41,7 @@ const App = () => {
         </Switch>
       </div>
     </Router>
+    </NDSProvider>
   );
 }
 
