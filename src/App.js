@@ -30,10 +30,10 @@ const App = () => {
           <Route exact path="/">
             <Home/>
           </Route>
-          <Route path="/about">
+          <Route path="/details">
             <Details/>
           </Route>
-          <Route path="/dashboard">
+          <Route path="/custom">
             <Custom/>
           </Route>
         </Switch>
