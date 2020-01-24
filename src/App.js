@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <NDSProvider theme={theme}>
         <NavBar menuData={{ primaryMenu, secondaryMenu, search }} />
-        <Box p="x6">
+        <Box>
           <Pages />
         </Box>
       </NDSProvider>
