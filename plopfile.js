@@ -25,12 +25,12 @@ module.exports = function(plop) {
       {
         type: "input",
         name: "title",
-        message: "Enter a title for your new page:"
+        message: "Enter a PascalCase title for your new page, e.g NewPage"
       } ,
       {
         type: "input",
         name: "path",
-        message: "Enter a lowercase thing"
+        message: "Enter a lowercase path, e.g new_page"
       },           
     ],
     actions: [
