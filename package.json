@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "prettier": "1.19.1",
-    "plop": "^2.5.3"
+    "@nulogy/components": "latest",
+    "plop": "^2.5.3",
+    "styled-components": "^5.0.0"
   }
 }
