@@ -11,8 +11,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "generate:component": "plop",
-    "prettier-watch": "onchange '**/**/*.js' -- prettier --write {{changed}}"
+    "prettier-watch": "onchange '**/**/*.js' -- prettier --write {{changed}}",
+    "generate:component": "plop component",
+    "generate:page": "plop page"
   },
   "eslintConfig": {
     "extends": "react-app"
