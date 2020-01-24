@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Title, theme, SectionTitle, SubsectionTitle, Text, NavBar, IconicButton, Link, Icon } from "@nulogy/components";
+import { Alert, Box, Flex, Title, theme, SectionTitle, SubsectionTitle, Text, NavBar, IconicButton, Link, Icon } from "@nulogy/components";
 
 const StorybookContentHeight = "calc(100vh - 72px - 48px - 16px)";
 const StorybookSidebarWidth = "calc(100vw - 48px - 16px)";
@@ -12,7 +12,6 @@ export const Custom = () => {
         <Flex m="x1" bg="white" boxShadow="large" borderRadius="medium" minHeight={StorybookContentHeight}>
           <Box p="x3" pt="x1" flexGrow="2">
             <Title mb="x6">I am title</Title>
-            <Text>I am main content.</Text>
           </Box>
           <Box
             bg="white"

@@ -1,4 +1,6 @@
-This is a starter kit for creating simple front-end sandboxes using @nulogy/components. See [http://nulogy.design](http://nulogy.design) for component usage instructions.
+# NDS Sandbox
+
+> This is a starter kit for creating simple front-end sandboxes using @nulogy/components. See [http://nulogy.design](http://nulogy.design) for component usage instructions.
 
 ## Getting started
 
