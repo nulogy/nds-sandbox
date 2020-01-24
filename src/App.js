@@ -5,28 +5,36 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {NDSProvider, theme} from "@nulogy/components";
+import {NDSProvider, NavBar, theme} from "@nulogy/components";
 import { Home } from "./pages/Home";
 import { Details } from "./pages/Details";
 import { Custom } from "./pages/Custom";
 
 const App = () => {
+  const primaryMenu = [
+    { name: 'Home',  render:  () => <Link to="/">Home</Link>},
+    { name: 'Details',  render:  () => <Link to="/details">Details</Link>},
+    { name: 'Custom',  render:  () => <Link to="/custom">Custom</Link>},
+  ];
+  
+  const secondaryMenu = [
+    {
+      name: 'Settings',
+      items: [
+        { name: 'Permissions', href: '/' },
+        { name: 'Manage account', href: '/' },
+      ],
+    },
+  ];
+  
+  const search = {
+    onSubmit: () => {},
+  };
+  
   return (
-    <NDSProvider theme={theme}>
     <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/details">Details</Link>
-          </li>
-          <li>
-            <Link to="/custom">Custom</Link>
-          </li>
-        </ul>
-
+        <NDSProvider theme={theme}>
+        <NavBar menuData={ { primaryMenu, secondaryMenu, search } } />
         <hr />
         <Switch>
           <Route exact path="/">
@@ -39,9 +47,10 @@ const App = () => {
             <Custom/>
           </Route>
         </Switch>
-      </div>
+
+      </NDSProvider>
+
     </Router>
-    </NDSProvider>
   );
 }
 
