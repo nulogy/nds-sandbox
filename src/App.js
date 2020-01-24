@@ -51,6 +51,6 @@ const App = () => {
       </NDSProvider>
     </Router>
   );
-}
+};
 
 export default App;

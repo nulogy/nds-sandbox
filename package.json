@@ -11,7 +11,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "generate:component": "plop"
+    "generate:component": "plop",
+    "prettier-watch": "onchange '**/**/*.js' -- prettier --write {{changed}}"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,10 +29,20 @@
       "last 1 safari version"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.0",
+    "husky": "^4.2.1",
+    "onchange": "^6.1.0",
+    "plop": "^2.5.3",
     "prettier": "1.19.1",
     "@nulogy/components": "latest",
-    "plop": "^2.5.3",
-    "styled-components": "^5.0.0"
+    "styled-components": "^5.0.0",
+    "pretty-quick": "^2.0.1"
   }
 }
