@@ -2,7 +2,8 @@ This is a starter kit for creating simple front-end sandboxes using @nulogy/comp
 
 ## Getting started
 
-* `git clone https://github.com/nulogy/nds-sandbox`
+* `git clone https://github.com/nulogy/nds-sandbox YourAppName`
+* `cd YourAppNAme`
 * `yarn` to install dependencies 
 
 ## Starting the server
