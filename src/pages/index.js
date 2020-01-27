@@ -9,15 +9,9 @@ import { Custom } from "./Custom";
 export const Pages = () => {
   return (
     <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/details">
-        <Details />
-      </Route>
-      <Route path="/custom">
-        <Custom />
-      </Route>
+      <Route exact path="/"><Home /></Route>
+      <Route path="/details"><Details /></Route>
+      <Route path="/custom"><Custom /></Route>
       {/* Add routes here */}
     </Switch>
   );
