@@ -1,10 +1,10 @@
 import React from "react";
-import {Box} from "@nulogy/components";
+import {Box, Text} from "@nulogy/components";
 
 export const Home = () => {
   return (
-    <Box bg="grey" p="x4">
-      <h2>Home</h2>
+    <Box  p="x3">
+      <Text>Welcome to your sandbox. Have fun! </Text>
     </Box>
   );
 }

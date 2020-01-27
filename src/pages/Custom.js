@@ -9,7 +9,7 @@ export const Custom = () => {
     <>
       <Flex bg="whiteGrey" flexDirection="column">
         <Flex m="x1" bg="white" boxShadow="large" borderRadius="medium" minHeight={contentHeight}>
-          <Box p="x3" pt="x1" flexGrow="2">
+          <Box p="x3" flexGrow="2">
             <Title mb="x6">I am title</Title>
           </Box>
           <Box
