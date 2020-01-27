@@ -11,7 +11,7 @@ module.exports = function(plop) {
     actions: [
       {
         type: "add",
-        path: "src/components/{{name}}/{{name}}.js",
+        path: "src/components/{{name}}.js",
         templateFile: "src/generator-templates/component.hbs"
       },
       function(data) {
