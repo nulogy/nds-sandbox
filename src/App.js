@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { Box, NDSProvider, BrandedNavBar, theme } from "@nulogy/components";
+import { NDSProvider, BrandedNavBar, theme, ApplicationFrame } from "@nulogy/components";
 import { primaryMenu, secondaryMenu, search } from "./data/menuData.js";
 import { Pages } from "./pages/index";
 
@@ -9,10 +9,9 @@ const App = () => {
   return (
     <Router>
       <NDSProvider theme={theme}>
-        <BrandedNavBar menuData={{ primaryMenu, secondaryMenu, search }} />
-        <Box>
+        <ApplicationFrame navBar={<BrandedNavBar menuData={{ primaryMenu, secondaryMenu, search }} />}>
           <Pages />
-        </Box>
+        </ApplicationFrame>
       </NDSProvider>
     </Router>
   );
