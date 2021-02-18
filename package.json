@@ -6,7 +6,9 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "@nulogy/components": "^5.0.0",
+    "styled-components": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,8 +44,6 @@
     "onchange": "^6.1.0",
     "plop": "^2.5.3",
     "prettier": "1.19.1",
-    "@nulogy/components": "latest",
-    "styled-components": "^5.0.0",
     "pretty-quick": "^2.0.1"
   }
 }
