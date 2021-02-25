@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/nds-sandbox/static/js/main.35221cc6.chunk.js",
-    "main.js.map": "/nds-sandbox/static/js/main.35221cc6.chunk.js.map",
+    "main.js": "/nds-sandbox/static/js/main.b7453eb8.chunk.js",
+    "main.js.map": "/nds-sandbox/static/js/main.b7453eb8.chunk.js.map",
     "runtime-main.js": "/nds-sandbox/static/js/runtime-main.5b0f8f97.js",
     "runtime-main.js.map": "/nds-sandbox/static/js/runtime-main.5b0f8f97.js.map",
     "static/js/2.6c25ae4c.chunk.js": "/nds-sandbox/static/js/2.6c25ae4c.chunk.js",
     "static/js/2.6c25ae4c.chunk.js.map": "/nds-sandbox/static/js/2.6c25ae4c.chunk.js.map",
     "index.html": "/nds-sandbox/index.html",
-    "precache-manifest.f616025be9fa1351097a5e8b6a0d3afe.js": "/nds-sandbox/precache-manifest.f616025be9fa1351097a5e8b6a0d3afe.js",
+    "precache-manifest.e3088bb3757c6487dc49bfc598794a39.js": "/nds-sandbox/precache-manifest.e3088bb3757c6487dc49bfc598794a39.js",
     "service-worker.js": "/nds-sandbox/service-worker.js",
     "static/js/2.6c25ae4c.chunk.js.LICENSE": "/nds-sandbox/static/js/2.6c25ae4c.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.5b0f8f97.js",
     "static/js/2.6c25ae4c.chunk.js",
-    "static/js/main.35221cc6.chunk.js"
+    "static/js/main.b7453eb8.chunk.js"
   ]
 }
