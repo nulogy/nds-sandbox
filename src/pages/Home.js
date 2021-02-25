@@ -11,7 +11,7 @@ export const Home = () => {
         <Text as="span" bg="lightBlue">
           {user}
         </Text>{" "}
-        to your sandbox. Have fun!{" "}
+        to your Easy Cap. Have fun!{" "}
       </Text>
     </Page>
   );
