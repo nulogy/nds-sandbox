@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 import { Home } from "./Home";
 import { Details } from "./Details";
-import { Custom } from "./Custom";
+import { Capacity } from "./Capacity";
 /* Import routes here */
 import { Charts } from "./Charts";
 
@@ -16,8 +16,8 @@ export const Pages = () => {
       <Route path="/details">
         <Details />
       </Route>
-      <Route path="/custom">
-        <Custom />
+      <Route path="/capacity">
+        <Capacity />
       </Route>
       {/* Add routes here */}
       <Route path="/charts">

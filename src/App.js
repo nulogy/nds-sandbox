@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router } from "react-router-dom";
 
-import { NDSProvider, BrandedNavBar, Button, theme, ApplicationFrame, Text } from "@nulogy/components";
+import { NDSProvider, Box, BrandedNavBar, Button, theme, ApplicationFrame, Text } from "@nulogy/components";
 import { primaryMenu, secondaryMenu, search } from "./data/menuData.js";
 import { Pages } from "./pages/index";
 import { MainProvider, useMainState, MAIN_ACTION_TYPES, useMainDispatch } from "./context/MainContext";
@@ -32,8 +32,12 @@ const App = () => {
     <Router basename="/">
       <NDSProvider theme={theme}>
         <MainProvider>
-          <ApplicationFrame navBar={<AppNav />}>
-            <Pages />
+          <ApplicationFrame backgroundColor="lightGrey" height="100vh" navBar={<AppNav />}>
+            <Box p="x3" height="100%">
+              <Box backgroundColor="white" borderRadius="medium">
+                <Pages />
+              </Box>
+            </Box>
           </ApplicationFrame>
         </MainProvider>
       </NDSProvider>

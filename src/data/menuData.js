@@ -5,7 +5,7 @@ export const primaryMenu = [
   { name: "Home", render: () => <Link to="/">Home</Link> },
   { name: "Details", render: () => <Link to="/details">Details</Link> },
   { name: "Charts", render: () => <Link to="/charts">Charts</Link> },
-  { name: "Custom", render: () => <Link to="/custom">Custom</Link> }
+  { name: "Capacity", render: () => <Link to="/capacity">Capacity</Link> }
 ];
 
 export const secondaryMenu = [
